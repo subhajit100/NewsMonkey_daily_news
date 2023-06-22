@@ -23,7 +23,7 @@ const App = () => {
           <Routes>
             <Route
               exact
-              path="/"
+              path="/NewsMonkey_daily_news"
               element={
                 <News
                   setProgress={setProgress}
