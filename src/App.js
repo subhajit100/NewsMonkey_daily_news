@@ -13,7 +13,7 @@ const App = () => {
 
     return (
       <div>
-        <Router basename="/NewsMonkey_daily_news">
+        <Router>
           <LoadingBar
             color="#f11946"
             progress={progress}
@@ -23,7 +23,7 @@ const App = () => {
           <Routes>
             <Route
               exact
-              path="/NewsMonkey_daily_news"
+              path="/"
               element={
                 <News
                   setProgress={setProgress}

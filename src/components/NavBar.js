@@ -5,7 +5,7 @@ const NavBar = (props) => {
     <div>
       <nav className="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
         <div className="container-fluid">
-          <Link className="navbar-brand" to="/NewsMonkey_daily_news">
+          <Link className="navbar-brand" to="/">
             NewsMonkey
           </Link>
           <button
@@ -22,7 +22,7 @@ const NavBar = (props) => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <Link className="nav-link active" aria-current="page" to="/NewsMonkey_daily_news">
+                <Link className="nav-link active" aria-current="page" to="/">
                   Home
                 </Link>
               </li>
